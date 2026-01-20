@@ -11,13 +11,13 @@ export function Navbar() {
         </Link>
         <div className="flex gap-4 items-center">
           <Link 
-            href="#" 
+            href="https://app.validtot.com/auth" 
             className="hidden md:block font-bold hover:underline"
           >
             Log in
           </Link>
           <Link 
-            href="#" 
+            href="https://app.validtot.com/auth" 
             className={cn(
               "bg-primary text-white font-bold py-2 px-4 rounded-none",
               "border-2 border-black brutal-shadow-sm hover:translate-x-[2px] hover:translate-y-[2px] hover:shadow-none transition-all"

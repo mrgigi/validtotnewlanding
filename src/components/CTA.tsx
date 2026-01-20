@@ -13,7 +13,7 @@ export function CTA() {
         </p>
         <div className="pt-4">
           <Link
-            href="#"
+            href="https://app.validtot.com/auth"
             className={cn(
               "inline-block bg-secondary text-black text-xl font-black py-5 px-10 rounded-none",
               "border-2 border-black shadow-[8px_8px_0px_0px_rgba(0,0,0,1)] hover:translate-x-[2px] hover:translate-y-[2px] hover:shadow-[4px_4px_0px_0px_rgba(0,0,0,1)] transition-all"

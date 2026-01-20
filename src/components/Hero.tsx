@@ -22,7 +22,7 @@ export function Hero() {
 
         <div className="flex flex-col sm:flex-row gap-4 justify-center items-center pt-4">
           <Link
-            href="#"
+            href="https://app.validtot.com/auth"
             className={cn(
               "flex items-center gap-2 bg-primary text-white text-lg font-black py-4 px-8 rounded-none",
               "border-2 border-black brutal-shadow hover:translate-x-[2px] hover:translate-y-[2px] hover:shadow-none transition-all"
@@ -32,7 +32,7 @@ export function Hero() {
           </Link>
           
           <Link
-            href="#"
+            href="https://app.validtot.com"
             className={cn(
               "flex items-center gap-2 bg-white text-black text-lg font-black py-4 px-8 rounded-none",
               "border-2 border-black brutal-shadow hover:translate-x-[2px] hover:translate-y-[2px] hover:shadow-none transition-all"
