@@ -1,8 +1,11 @@
 @import "tailwindcss";
 
 :root {
-  --background: #ffffff;
+  --background: #fffcf2; /* Soft warm white */
   --foreground: #171717;
+  --primary: #8b5cf6; /* Violet */
+  --secondary: #fbbf24; /* Amber */
+  --accent: #ef4444; /* Red */
 }
 
 @theme inline {
@@ -10,17 +13,31 @@
   --color-foreground: var(--foreground);
   --font-sans: var(--font-geist-sans);
   --font-mono: var(--font-geist-mono);
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+  
+  /* Add custom colors */
+  --color-primary: var(--primary);
+  --color-secondary: var(--secondary);
+  --color-accent: var(--accent);
 }
 
 body {
   background: var(--background);
   color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: var(--font-sans), Arial, Helvetica, sans-serif;
+}
+
+/* Custom Utilities for Neo-Brutalism */
+@layer utilities {
+  .brutal-shadow {
+    box-shadow: 4px 4px 0px 0px rgba(0,0,0,1);
+  }
+  .brutal-shadow-sm {
+    box-shadow: 2px 2px 0px 0px rgba(0,0,0,1);
+  }
+  .brutal-shadow-lg {
+    box-shadow: 8px 8px 0px 0px rgba(0,0,0,1);
+  }
+  .brutal-border {
+    border: 2px solid #000000;
+  }
 }
