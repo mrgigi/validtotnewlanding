@@ -1,5 +1,5 @@
 import { cn } from "@/lib/utils";
-import { DollarSign, Zap, Shield, Globe } from "lucide-react";
+import { DollarSign, Zap, Shield, Globe, BarChart3, Download, UserCheck, Lock, Calendar, PieChart } from "lucide-react";
 
 const features = [
   {
@@ -23,8 +23,44 @@ const features = [
   {
     icon: Globe,
     title: "Global Reach",
-    description: "Get opinions from around the world. See exactly where your votes are coming from.",
+    description: "Get opinions from around the world. Accessible to anyone, anywhere, anytime.",
     color: "bg-purple-300",
+  },
+  {
+    icon: BarChart3,
+    title: "Live Analytics",
+    description: "Watch votes roll in real-time with dynamic charts. Spot trends as they happen.",
+    color: "bg-orange-300",
+  },
+  {
+    icon: Download,
+    title: "One-Click Export",
+    description: "Download your results (CSV/PDF/PNG) instantly for presentations or deep analysis.",
+    color: "bg-pink-300",
+  },
+  {
+    icon: UserCheck,
+    title: "Multi-Account Guard",
+    description: "Our system detects and blocks attempts to game the vote using multiple accounts. Fair results, always.",
+    color: "bg-cyan-300",
+  },
+  {
+    icon: Lock,
+    title: "Private Campaigns",
+    description: "Secure your polls with a secret key. Perfect for private communities, internal teams, or VIP groups.",
+    color: "bg-red-300",
+  },
+  {
+    icon: Calendar,
+    title: "Smart Scheduling",
+    description: "Plan ahead. Schedule polls to go live automatically and set strict countdowns for when voting ends.",
+    color: "bg-lime-300",
+  },
+  {
+    icon: PieChart,
+    title: "Deep Demographics",
+    description: "Drill down into your data. See exactly which cities, regions, and countries your votes are coming from.",
+    color: "bg-indigo-300",
   },
 ];
 
@@ -36,7 +72,7 @@ export function Features() {
           WHY VALIDTOT IS DIFFERENT
         </h2>
         
-        <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
+        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
           {features.map((feature, index) => (
             <div 
               key={index} 
@@ -54,6 +90,12 @@ export function Features() {
               </p>
             </div>
           ))}
+        </div>
+
+        <div className="text-center">
+          <p className="text-2xl md:text-3xl font-black italic">
+            & MORE...
+          </p>
         </div>
       </div>
     </section>

@@ -1,5 +1,6 @@
 import { Navbar } from "@/components/Navbar";
 import { Hero } from "@/components/Hero";
+import { TrustedBy } from "@/components/TrustedBy";
 import { Hook } from "@/components/Hook";
 import { VisualProof } from "@/components/VisualProof";
 import { Features } from "@/components/Features";
@@ -13,6 +14,7 @@ export default function Home() {
     <main className="min-h-screen flex flex-col font-sans">
       <Navbar />
       <Hero />
+      <TrustedBy />
       <Hook />
       <VisualProof />
       <Features />
