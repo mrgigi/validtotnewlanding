@@ -13,7 +13,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  metadataBase: new URL('https://validtot.com'), // Replace with actual domain when live
+  metadataBase: new URL(process.env.VERCEL_URL ? `https://${process.env.VERCEL_URL}` : 'http://localhost:3000'),
   title: "ValidToT - Stop Guessing. Get Real Answers.",
   description: "Create instant, anonymous polls and get verified votes from real humans. No paywalls. No bots. Just honest, unbiased feedback.",
   keywords: ["polls", "market research", "feedback", "anonymous voting", "verified votes"],
@@ -21,7 +21,6 @@ export const metadata: Metadata = {
   openGraph: {
     title: "ValidToT - Stop Guessing. Get Real Answers.",
     description: "Create instant, anonymous polls and get verified votes from real humans.",
-    url: 'https://validtot.com',
     siteName: 'ValidToT',
     type: "website",
     locale: "en_US",
