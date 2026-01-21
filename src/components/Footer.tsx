@@ -8,10 +8,10 @@ export function Footer() {
           <Logo size="lg" className="border-2 border-white" />
         </div>
         <div className="flex gap-8 font-bold text-sm md:text-base">
-          <a href="#" className="hover:text-secondary hover:underline">About</a>
-          <a href="#" className="hover:text-secondary hover:underline">Privacy</a>
-          <a href="#" className="hover:text-secondary hover:underline">Terms</a>
-          <a href="#" className="hover:text-secondary hover:underline">Contact</a>
+          <a href="/about" className="hover:text-secondary hover:underline">About</a>
+          <a href="/privacy" className="hover:text-secondary hover:underline">Privacy</a>
+          <a href="/terms" className="hover:text-secondary hover:underline">Terms</a>
+          <a href="/contact" className="hover:text-secondary hover:underline">Contact</a>
         </div>
         <div className="text-sm font-medium text-gray-400">
           © {new Date().getFullYear()} ValidToT. All rights reserved.
