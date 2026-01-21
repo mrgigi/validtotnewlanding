@@ -58,8 +58,8 @@ const features = [
   },
   {
     icon: PieChart,
-    title: "Deep Demographics",
-    description: "Drill down into your data. See exactly which cities, regions, and countries your votes are coming from.",
+    title: "Deep Analytics",
+    description: "Track viewer-to-voter conversion, monitor unique views vs voters, analyze voting trends over time, and drill down into detailed demographics.",
     color: "bg-indigo-300",
   },
 ];

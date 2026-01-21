@@ -4,6 +4,7 @@ import { TrustedBy } from "@/components/TrustedBy";
 import { Hook } from "@/components/Hook";
 import { VisualProof } from "@/components/VisualProof";
 import { Features } from "@/components/Features";
+import { PotentialUsers } from "@/components/PotentialUsers";
 import { UseCases } from "@/components/UseCases";
 import { HowItWorks } from "@/components/HowItWorks";
 import { CTA } from "@/components/CTA";
@@ -18,6 +19,7 @@ export default function Home() {
       <Hook />
       <VisualProof />
       <Features />
+      <PotentialUsers />
       <UseCases />
       <HowItWorks />
       <CTA />
