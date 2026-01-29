@@ -17,7 +17,7 @@ export function Hero() {
         <p className="text-xl md:text-2xl font-medium max-w-2xl mx-auto leading-relaxed text-gray-800">
           Create instant, anonymous polls and get verified votes from real humans.
           <br className="hidden md:block"/>
-          No paywalls. No bots. Just honest, unbiased feedback.
+          Free for everyone. No bots. Just honest, unbiased feedback.
         </p>
 
         <div className="flex flex-col sm:flex-row gap-4 justify-center items-center pt-4">

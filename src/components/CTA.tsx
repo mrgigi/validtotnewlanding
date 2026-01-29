@@ -19,7 +19,7 @@ export function CTA() {
               "border-2 border-black shadow-[8px_8px_0px_0px_rgba(0,0,0,1)] hover:translate-x-[2px] hover:translate-y-[2px] hover:shadow-[4px_4px_0px_0px_rgba(0,0,0,1)] transition-all"
             )}
           >
-            CREATE A POLL (IT’S FREE)
+            CREATE A POLL (START FREE)
           </Link>
         </div>
       </div>

@@ -4,8 +4,8 @@ import { DollarSign, Zap, Shield, Globe, BarChart3, Download, UserCheck, Lock, C
 const features = [
   {
     icon: DollarSign,
-    title: "100% Free Forever",
-    description: "Unlimited polls, unlimited votes. No hidden fees. No upgrades required.",
+    title: "Free for Personal Use",
+    description: "Create and vote for free, forever. Affordable onboarding and premium tools available for businesses.",
     color: "bg-green-300",
   },
   {

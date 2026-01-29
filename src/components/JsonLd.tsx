@@ -6,11 +6,6 @@ export default function JsonLd() {
     applicationCategory: 'PollingApplication',
     operatingSystem: 'Web',
     description: 'Create instant, anonymous polls and get verified votes from real humans.',
-    offers: {
-      '@type': 'Offer',
-      price: '0',
-      priceCurrency: 'USD',
-    },
     aggregateRating: {
       '@type': 'AggregateRating',
       ratingValue: '4.8',
