@@ -23,7 +23,7 @@ export function TrustedBy() {
           </span>
           
           <span className="text-2xl md:text-3xl font-black text-gray-600 tracking-tighter">
-            BRAND<span className="text-black">X</span>
+            Amahoro <span className="text-black">Coalition</span>
           </span>
         </div>
       </div>
