@@ -11,6 +11,12 @@ export function Navbar() {
         </Link>
         <div className="flex gap-4 items-center">
           <Link 
+            href="/case-studies" 
+            className="hidden md:block font-bold hover:underline mr-2"
+          >
+            Case Studies
+          </Link>
+          <Link 
             href="https://app.validtot.com/auth" 
             className="hidden md:block font-bold hover:underline"
           >
