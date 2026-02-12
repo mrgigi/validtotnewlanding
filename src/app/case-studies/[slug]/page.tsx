@@ -1,5 +1,6 @@
 import { notFound } from "next/navigation";
 import Link from "next/link";
+import { Metadata } from "next";
 import { ArrowLeft, CheckCircle2, Trophy } from "lucide-react";
 import { Navbar } from "@/components/Navbar";
 import { Footer } from "@/components/Footer";
@@ -11,6 +12,32 @@ interface PageProps {
   params: Promise<{
     slug: string;
   }>;
+}
+
+export async function generateMetadata({ params }: PageProps): Promise<Metadata> {
+  const { slug } = await params;
+  const study = caseStudies.find((s) => s.slug === slug);
+
+  if (!study) {
+    return {
+      title: "Case Study Not Found",
+    };
+  }
+
+  return {
+    title: `${study.title} | ValidToT Case Study`,
+    description: study.subtitle,
+    openGraph: {
+      title: `${study.title} | ValidToT Case Study`,
+      description: study.subtitle,
+      type: "article",
+    },
+    twitter: {
+      card: "summary_large_image",
+      title: `${study.title} | ValidToT Case Study`,
+      description: study.subtitle,
+    },
+  };
 }
 
 export async function generateStaticParams() {

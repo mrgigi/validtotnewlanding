@@ -1,3 +1,4 @@
+import Link from "next/link";
 import { cn } from "@/lib/utils";
 
 export function TrustedBy() {
@@ -22,9 +23,14 @@ export function TrustedBy() {
             <span className="font-black text-black">VOX</span>POPULI
           </span>
           
-          <span className="text-2xl md:text-3xl font-black text-gray-600 tracking-tighter">
-            Amahoro <span className="text-black">Coalition</span>
-          </span>
+          <Link 
+            href="/case-studies/amahoro-coalition-global-election"
+            className="group"
+          >
+            <span className="text-2xl md:text-3xl font-black text-gray-600 tracking-tighter group-hover:text-primary transition-colors">
+              Amahoro <span className="text-black group-hover:text-primary transition-colors">Coalition</span>
+            </span>
+          </Link>
         </div>
       </div>
     </section>

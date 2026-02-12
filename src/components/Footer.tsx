@@ -9,6 +9,7 @@ export function Footer() {
         </div>
         <div className="flex gap-8 font-bold text-sm md:text-base">
           <a href="/about" className="hover:text-secondary hover:underline">About</a>
+          <a href="/case-studies" className="hover:text-secondary hover:underline">Case Studies</a>
           <a href="/privacy" className="hover:text-secondary hover:underline">Privacy</a>
           <a href="/terms" className="hover:text-secondary hover:underline">Terms</a>
           <a href="/contact" className="hover:text-secondary hover:underline">Contact</a>
